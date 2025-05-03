@@ -2,11 +2,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import {
-  ChevronRight,
   Dumbbell,
   Sparkles,
   Users,
-  Clock,
   AppleIcon,
   ShieldIcon,
 } from "lucide-react";
@@ -108,10 +106,6 @@ const UserPrograms = () => {
                     <Sparkles className="h-4 w-4" />
                     {program.fitness_goal}
                   </div>
-                  <div className="text-sm text-muted-foreground flex items-center gap-2">
-                    <Clock className="h-4 w-4" />
-                    v3.5
-                  </div>
                 </div>
               </CardHeader>
 
@@ -174,10 +168,6 @@ const UserPrograms = () => {
 
               <CardFooter className="px-5 py-4 border-t border-border">
                 <Link href={`/programs/${program.id}`} className="w-full">
-                  <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                    View Program Details
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </Button>
                 </Link>
               </CardFooter>
             </Card>
