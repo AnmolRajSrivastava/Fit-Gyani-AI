@@ -160,7 +160,7 @@ http.route({
       
       As a professional coach:
       - Consider muscle group splits to avoid overtraining the same muscles on consecutive days
-      - Design exercises that match the fitness level and account for any injuries or limitations(means usere can't eat or drink that)
+      - Design exercises that match the fitness level and account for any injuries or limitations(means user can't eat or drink that)
       - Structure the workouts to specifically target the user's fitness goal
       
       CRITICAL SCHEMA INSTRUCTIONS:
