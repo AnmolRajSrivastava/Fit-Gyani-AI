@@ -209,8 +209,10 @@ http.route({
         As a professional nutrition coach:
         - Calculate appropriate daily calorie intake based on the person's stats and goals
         - Create a balanced meal plan with proper macronutrient distribution
-        - Include a variety of nutrient-dense foods while respecting dietary_restrictions
+        - Include a variety of nutrient-dense foods while respecting dietary restrictions
         - Exclude any food item that violates the specified dietary_restrictions without exception.
+        - **When you show your sample JSON below, make sure every \`foods\` entry complies** with the given \`dietary_restrictions\`.  
+         (e.g. if \`vegetarian\`, no meat/fish; if \`vegan\`, no dairy/eggs; if \`pescatarian\`, fish OK but no other meat.)
         - Consider meal timing around workouts for optimal performance and recovery
         
         CRITICAL SCHEMA INSTRUCTIONS:
@@ -230,7 +232,7 @@ http.route({
             },
             {
               "name": "Lunch",
-              "foods": ["Grilled chicken salad", "Whole grain bread", "Water"]
+              "foods": ["Mixed veggie wrap", "Side salad", "Water"]
             }
           ]
         }
