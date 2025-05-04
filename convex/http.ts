@@ -160,7 +160,7 @@ http.route({
       
       As a professional coach:
       - Consider muscle group splits to avoid overtraining the same muscles on consecutive days
-      - Design exercises that match the fitness level and account for any injuries or limitations(means user can't eat or drink that)
+      - Design exercises that match the fitness level and account for any injuries
       - Structure the workouts to specifically target the user's fitness goal
       
       CRITICAL SCHEMA INSTRUCTIONS:
@@ -210,6 +210,7 @@ http.route({
         - Calculate appropriate daily calorie intake based on the person's stats and goals
         - Create a balanced meal plan with proper macronutrient distribution
         - Include a variety of nutrient-dense foods while respecting dietary restrictions
+        - Strictly adhere to the specified dietary restrictions by excluding any foods that violate them.
         - Consider meal timing around workouts for optimal performance and recovery
         
         CRITICAL SCHEMA INSTRUCTIONS:
