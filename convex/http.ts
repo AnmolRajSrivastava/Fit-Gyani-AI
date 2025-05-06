@@ -235,15 +235,19 @@ http.route({
           "meals": [
             {
               "name": "Breakfast",
-              "foods": ["Oatmeal with berries", "Greek yogurt", "Black coffee"]
+              "foods": ["Oatmeal", "Banana", "Almonds"]
             },
             {
               "name": "Lunch",
-              "foods": ["Lentil salad", "Whole grain bread", "Water"]
+              "foods": ["Quinoa Salad", "Chickpeas", "Avocado"]
+            },
+            {
+              "name": "Dinner",
+              "foods": ["Stir-fried Tofu", "Broccoli", "Brown Rice"]
             }
           ]
-        }
-        
+                
+        sad
         DO NOT add any fields that are not in this example. Your response must be a valid JSON object with no additional text.`;
 
       const dietResult = await model.generateContent(dietPrompt);
