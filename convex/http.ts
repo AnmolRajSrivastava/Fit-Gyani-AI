@@ -209,8 +209,9 @@ http.route({
         let restriction = dietary_restrictions.toLowerCase();
         if (restriction.includes("vegetarian")) {
         restriction = "vegetarian";
-        }
-        // …then
+        } else if (restriction.includes("vegan")) {
+        restriction = "vegan";
+        }        
         Dietary restrictions: ${dietary_restrictions}
 
         
@@ -218,6 +219,7 @@ http.route({
         - Calculate appropriate daily calorie intake based on the person's stats and goals
         - Create a balanced meal plan with proper macronutrient distribution
         - Include a variety of nutrient-dense foods while respecting dietary restrictions
+        - Do NOT include any meat, poultry, or fish if dietary_restrictions include “vegetarian”
         - Consider meal timing around workouts for optimal performance and recovery
         
         CRITICAL SCHEMA INSTRUCTIONS:
